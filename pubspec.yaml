@@ -1,0 +1,34 @@
+name: flutter_book_app_new
+description: A new Flutter project
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_pdfview: ^1.4.1+1
+  file_picker: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - res/webmaster.jpeg
+    - res/indesign.jpg
+    - res/sketchup.jpeg
+    - res/photoshop.jpg
+    - res/max_3d.jpeg
+    - res/premier.jpg
+    - res/maya.jpeg
+    - res/corel.jpg
+    - res/drafter.jpg
+
+    - assets/mybook.pdf
+    - assets/default_cover.jpg
+    - assets/mybook.pdf
